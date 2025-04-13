@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-13T13:29:08Z" name="Bookstore API Automation Suite" finished-at="2025-04-13T13:29:25Z" duration-ms="17266">
+    <groups>
+    </groups>
+    <test started-at="2025-04-13T13:29:08Z" name="API Tests" finished-at="2025-04-13T13:29:25Z" duration-ms="17266">
+      <class name="tests.LoginTest">
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginTest@1f53a5dc]" started-at="2025-04-13T13:29:22Z" name="loginTest" finished-at="2025-04-13T13:29:23Z" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.SignUpTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:tests.SignUpTest@413f69cc]" started-at="2025-04-13T13:29:08Z" name="setupReport" finished-at="2025-04-13T13:29:08Z" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="signUpTest()[pri:0, instance:tests.SignUpTest@413f69cc]" started-at="2025-04-13T13:29:08Z" name="signUpTest" finished-at="2025-04-13T13:29:22Z" duration-ms="14214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@413f69cc]" started-at="2025-04-13T13:29:25Z" name="tearDown" finished-at="2025-04-13T13:29:26Z" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.DeleteBookTest">
+        <test-method signature="deleteBookTest()[pri:0, instance:tests.DeleteBookTest@1984b1f]" started-at="2025-04-13T13:29:25Z" name="deleteBookTest" finished-at="2025-04-13T13:29:25Z" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookTest -->
+      </class> <!-- tests.DeleteBookTest -->
+      <class name="tests.CreateBookTest">
+        <test-method signature="createBookTest()[pri:0, instance:tests.CreateBookTest@1b75c2e3]" started-at="2025-04-13T13:29:23Z" name="createBookTest" finished-at="2025-04-13T13:29:25Z" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookTest -->
+      </class> <!-- tests.CreateBookTest -->
+    </test> <!-- API Tests -->
+  </suite> <!-- Bookstore API Automation Suite -->
+</testng-results>
