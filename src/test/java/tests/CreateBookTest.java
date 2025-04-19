@@ -12,7 +12,7 @@ public class CreateBookTest extends BaseTest {
     public void createBookTest() {
         test = extent.createTest("Create Book");
 
-        String payload = "{ \"name\": \"The Alchemist\", \"author\": \"Paulo Coelho\", " +
+        String payload = "{ \"name\": \"The Alchemists\", \"author\": \"Paulo Coelho\", " +
                 "\"book_summary\": \"A story about following your dreams.\", \"published_year\": 1988 }";
 
         String response = given()
